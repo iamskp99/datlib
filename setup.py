@@ -16,7 +16,7 @@ classifiers = [
 
 setup(
     name = "datlib",
-    version = "0.0.2",
+    version = "0.0.3",
     description = "A python package for data structures and algorithms.",
     py_modules =  ["graphs","numbertheory","rangeQueries"],
     package_dir = {"":"src"},
