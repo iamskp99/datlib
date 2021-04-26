@@ -41,7 +41,9 @@ There are many modules inside this package.
          from rangeQueries import SegmentTree
          def combine(a,b):
              return a+b
-                 
+         
+         l = [1,2,3,4,5,6,7,8]
+         identityVal = 0
          s = SegmentTree(l,identityVal,combine)
 
       '''
