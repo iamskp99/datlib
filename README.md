@@ -22,6 +22,7 @@ There are many modules inside this package.
       (a) A function **combine**
           This takes two arguments a and b. This function takes care of 
           the combination of the values of child nodes into a parent node.
+        
 
       (b) A variable **identityVal**
           
@@ -38,6 +39,9 @@ There are many modules inside this package.
       '''python
          
          from rangeQueries import SegmentTree
+         def combine(a,b):
+             return a+b
+                 
          s = SegmentTree(l,identityVal,combine)
 
       '''
