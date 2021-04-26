@@ -6,7 +6,9 @@ This is a python package containing useful classes and functions of data structu
 Run the following to install:
 
 '''python
+
    pip install datlib
+   
 '''
 ## Usage
 
