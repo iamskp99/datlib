@@ -70,6 +70,7 @@ There are many modules inside this package.
 ###2. numbertheory module
       
       This module contains following functions :
+      Here **n** is the number.
     
       (a) primefactors(n)
 
@@ -91,7 +92,7 @@ There are many modules inside this package.
 ###3. graphs module
 
       This module contains following functions :
-      Here **n** is the number.
+      
     
       (a)  bfs(start,graph)
 
